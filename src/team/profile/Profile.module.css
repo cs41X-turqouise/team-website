@@ -1,0 +1,52 @@
+.profile {
+    border: 0.25em solid black;
+    border-radius: 2.5%;
+    background-image: radial-gradient(white, var(--color-secondary));
+    width: 300px;
+    height: 600px;
+    margin: 0.5em;
+    box-shadow: var(--shadow);
+    overflow-y: scroll;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile:hover {
+    transform: scale(1.01);
+}
+
+.picture {
+    width: 100%;
+    padding: 1em;
+}
+
+.name {
+    text-align: center;
+    color: black;
+    padding: 0.25em 0;
+    margin: 0.25em 0;
+    width: 75%;
+    border-bottom: 0.1em solid black;
+}
+
+.role {
+    color: rgb(50, 50, 50);
+    font-size: 0.75em;
+    text-align: center;
+    padding: 0.15em;
+    margin: 0.15em 0;
+    width: 50%;
+    border-bottom: 0.05em solid rgb(50, 50, 50);
+}
+
+.bio {
+    text-align: center;
+    color: black;
+    padding: 1em;
+    word-wrap: break-word;
+    width: 100%;
+    font-size: 0.8em;
+}

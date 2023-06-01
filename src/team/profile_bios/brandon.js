@@ -1,0 +1,3 @@
+const brandonBio = "Brandon is currently pursuing an undergrad degree in Computer Science after working in law for 15 years. He recently landed a position as a Junior Computer Engineer working on real-time systems for multiple state governments around the country. He expects to complete the degree within the year, but raising a rambunctious toddler might slow down that goal.";
+
+export default brandonBio;

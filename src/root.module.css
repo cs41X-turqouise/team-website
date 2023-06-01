@@ -3,10 +3,13 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-size: 22px;
+	--color-primary: rgb(162, 174, 187);
+	--color-secondary: rgb(224, 225, 233);
+	--shadow: 0px 10px 12px rgb(130, 130, 130);
 }
 
 body {
-	background-color: rgb(162, 174, 187);
+	background-color: var(--color-primary);
 }
 
 a {

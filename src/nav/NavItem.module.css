@@ -5,6 +5,5 @@
 
 .navItem:hover {
 	cursor: pointer;
-	transform: scale(1.1);
 	color: rgb(50, 50, 50);
 }

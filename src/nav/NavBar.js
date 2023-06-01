@@ -5,12 +5,14 @@ import { Outlet } from "react-router-dom";
 
 const NavBar = () => {
 	return (
-		<nav className={styles.navBar}>
-			<NavItem path="/" pageTitle="Home" />
-			<NavItem path="team" pageTitle="Team" />
-			<NavItem path="deliverables" pageTitle="Deliverables" />
+		<>
+			<nav className={styles.navBar}>
+				<NavItem path="/" pageTitle="Home" />
+				<NavItem path="team" pageTitle="Team" />
+				<NavItem path="deliverables" pageTitle="Deliverables" />
+			</nav>
 			<Outlet />
-		</nav>
+		</>
 	);
 };
 

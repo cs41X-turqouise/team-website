@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import styles from "./root.module.css";
 import NavBar from "./nav/NavBar";
+import Team from "./team/Team";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 
@@ -17,7 +18,7 @@ const router = createHashRouter([
 			},
 			{
 				path: 'team',
-				element: null // temporary,
+				element: <Team />
 			},
 			{
 				path: 'deliverables',
