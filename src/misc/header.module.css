@@ -1,0 +1,9 @@
+.header {
+    text-align: center;
+    color: black;
+    background-color: var(--color-secondary);
+    margin: 1em 3em 1em 3em;
+    padding: 1em;
+    box-shadow: var(--shadow);
+    font-size: 1.5em;
+}

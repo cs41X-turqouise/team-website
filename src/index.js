@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import styles from "./root.module.css";
 import NavBar from "./nav/NavBar";
 import Team from "./team/Team";
+import References from "./references/References";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 
@@ -23,6 +24,10 @@ const router = createHashRouter([
 			{
 				path: 'deliverables',
 				element: null // tempoary
+			},
+			{
+				path: 'references',
+				element: <References />
 			}
 		]
 	}

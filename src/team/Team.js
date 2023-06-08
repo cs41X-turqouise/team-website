@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Team.module.css";
+import headerStyle from "../misc/header.module.css";
 import Profile from "./profile/Profile";
 
 import defaultPicture from "./profile_pictures/default.png";
@@ -78,7 +79,7 @@ const profiles = [
 const Team = () => {
     return (
         <>
-            <h1 className={styles.header}>Meet Team Turquoise</h1>
+            <h1 className={headerStyle.header}>Meet Team Turquoise</h1>
             <div className={styles.team}>
                 {profiles.map((profile, key) =>
                     <Profile
