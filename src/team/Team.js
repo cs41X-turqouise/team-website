@@ -4,10 +4,15 @@ import headerStyle from "../misc/header.module.css";
 import Profile from "./profile/Profile";
 
 import defaultPicture from "./profile_pictures/default.png";
+import aamrPicture from "./profile_pictures/aamr.jpg";
 import benjaminPicture from "./profile_pictures/benjamin.jpg";
+import brandonPicture from "./profile_pictures/brandon.png";
 import christianPicture from "./profile_pictures/christian.jpg";
+import evanPicture from "./profile_pictures/evan.jpg";
+import koriPicture from "./profile_pictures/kori.png";
 import patrickPicture from "./profile_pictures/patrick.jpg";
 import prestinPicture from "./profile_pictures/prestin.jpg";
+import thomasPicture from "./profile_pictures/thomas.jpg";
 
 import aamrBio from "./profile_bios/aamr";
 import benjaminBio from "./profile_bios/benjamin";
@@ -21,7 +26,7 @@ import thomasBio from "./profile_bios/thomas";
 
 const profiles = [
     {
-        picture: defaultPicture,
+        picture: aamrPicture,
         fullName: "Aamr Ibrahim",
         role: "Placeholder",
         bio: aamrBio
@@ -33,7 +38,7 @@ const profiles = [
         bio: benjaminBio
     },
     {
-        picture: defaultPicture,
+        picture: brandonPicture,
         fullName: "Brandon Bedner",
         role: "Placeholder",
         bio: brandonBio
@@ -45,13 +50,13 @@ const profiles = [
         bio: christianBio
     },
     {
-        picture: defaultPicture,
+        picture: evanPicture,
         fullName: "Evan Goldberg",
         role: "Placeholder",
         bio: evanBio
     },
     {
-        picture: defaultPicture,
+        picture: koriPicture,
         fullName: "Kori Fogle",
         role: "Placeholder",
         bio: koriBio
@@ -69,7 +74,7 @@ const profiles = [
         bio: prestinBio
     },
     {
-        picture: defaultPicture,
+        picture: thomasPicture,
         fullName: "Thomas Reynolds",
         role: "Placeholder",
         bio: thomasBio
