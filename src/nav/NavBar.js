@@ -10,6 +10,7 @@ const NavBar = () => {
 				<NavItem path="/" pageTitle="Home" />
 				<NavItem path="team" pageTitle="Team" />
 				<NavItem path="deliverables" pageTitle="Deliverables" />
+				<NavItem path="glossary" pageTitle="Glossary" />
 				<NavItem path="references" pageTitle="References" />
 			</nav>
 			<Outlet />
