@@ -1,0 +1,3 @@
+const brendanBio = "Brendan Baylor is an interdisciplinary artist whose work explores the political ecology of landscapes. His recent print series The Orchid House explores the tropical greenhouse as a metaphor for climate colonialism. His work has been shown nationally and internationally in many venues, including the Madison Museum of Contemporary Art, the University of Richmond Museums, and the CONA Institute in Ljubljana, Slovenia. Brendan is currently Assistant Professor of Art (Print Media) at Old Dominion University. He lives and works in Norfolk, VA at the mouth of the Chesapeake Bay.";
+
+export default brendanBio;

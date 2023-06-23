@@ -7,6 +7,7 @@ import defaultPicture from "./profile_pictures/default.png";
 import aamrPicture from "./profile_pictures/aamr.jpg";
 import benjaminPicture from "./profile_pictures/benjamin.jpg";
 import brandonPicture from "./profile_pictures/brandon.png";
+import brendanPicture from "./profile_pictures/brendan.jpg";
 import christianPicture from "./profile_pictures/christian.jpg";
 import evanPicture from "./profile_pictures/evan.jpg";
 import koriPicture from "./profile_pictures/kori.png";
@@ -17,6 +18,7 @@ import thomasPicture from "./profile_pictures/thomas.jpg";
 import aamrBio from "./profile_bios/aamr";
 import benjaminBio from "./profile_bios/benjamin";
 import brandonBio from "./profile_bios/brandon";
+import brendanBio from "./profile_bios/brendan";
 import christianBio from "./profile_bios/christian";
 import evanBio from "./profile_bios/evan";
 import koriBio from "./profile_bios/kori";
@@ -78,6 +80,12 @@ const profiles = [
         fullName: "Thomas Reynolds",
         role: "Placeholder",
         bio: thomasBio
+    },
+    {
+        picture: brendanPicture,
+        fullName: "Brendan Baylor",
+        role: "Mentor",
+        bio: brendanBio
     }
 ];
 
