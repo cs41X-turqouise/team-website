@@ -1,0 +1,25 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("./resources/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    opacity: 0;
+    animation: fadeIn 1.25s linear;
+    animation-fill-mode: forwards;
+}
+
+.title {
+    margin: 0.25em 0;
+}
+
+@keyframes fadeIn {
+    100% {
+        opacity: 1;
+    }
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import styles from "./root.module.css";
 import NavBar from "./nav/NavBar";
+import Home from "./home/Home";
 import Team from "./team/Team";
 import Glossary from "./glossary/Glossary";
 import References from "./references/References";
@@ -16,7 +17,7 @@ const router = createHashRouter([
 		children: [
 			{
 				path: '/',
-				element: null // temporary
+				element: <Home />
 			},
 			{
 				path: 'team',
