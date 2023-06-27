@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery UI Slider - Default functionality</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;      
+        background-image: url('images\\google_maps.png'); 
+        background-size: cover;
+        background-position: center;
+     
+    }
+
+    #slider {
+        position: fixed;  /* Fixed positioning */
+        bottom: 10px;        /* Aligned to bottom */
+        left: 0;          
+        right: 0; 
+        height: 30px;   /* Increased height for a larger handle */    
+        width: 80%;
+        max-width: 400px;
+        margin: 0 auto;
+        background-color: rgb(239, 239, 239);
+        border: 2px solid black;
+    }
+    .ui-slider .ui-slider-handle {
+        width: 30px; /* Adjust if needed */
+        height: 30px; /* Adjust if needed */
+        background: #0095ff; /* Blue background for handle */
+        border-radius: 50%; /* Makes the handle circular */
+        border: none; /* Removes default border */
+        top: 0; /* Aligns the handle to the top of the slider track */
+        margin-left: -15px; /* Offsets the handle's position to center it on the track */
+        z-index: 100; /* Z-index for slider handle, higher than slider's z-index */
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+    $(function() {
+        $("#slider").slider();
+    });
+</script>
+</head>
+<body>
+ 
+<div id="slider"></div>
+ 
+</body>
+</html>
