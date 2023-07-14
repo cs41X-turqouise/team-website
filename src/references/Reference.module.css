@@ -1,6 +1,13 @@
-.reference {
-    text-align: left;
-    color: blue;
+p {
+    display: inline;
+}
+
+a {
+    display: inline;
     text-decoration: underline;
+}
+
+.reference {
     margin: 1em 0;
+    text-align: left;
 }
