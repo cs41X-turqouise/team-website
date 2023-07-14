@@ -4,6 +4,7 @@ import styles from "./root.module.css";
 import NavBar from "./nav/NavBar";
 import Home from "./home/Home";
 import Team from "./team/Team";
+import Deliverables from './deliverables/Deliverables';
 import ProjectDescription from './project_description/ProjectDescription';
 import References from "./references/References";
 import { createHashRouter, RouterProvider } from "react-router-dom";
@@ -29,7 +30,7 @@ const router = createHashRouter([
 			},
 			{
 				path: 'deliverables',
-				element: null // tempoary
+				element: <Deliverables />
 			},
 			{
 				path: 'references',

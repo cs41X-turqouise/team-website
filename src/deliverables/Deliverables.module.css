@@ -1,0 +1,12 @@
+.deliverables {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 2em;
+    background-color: var(--color-secondary);
+    border: 0.1em solid black;
+    padding: 2em;
+    box-shadow: var(--shadow);
+}
