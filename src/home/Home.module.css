@@ -4,14 +4,11 @@
     justify-content: center;
     align-items: center;
 
-    background-image: url("./resources/background.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
     opacity: 0;
     animation: fadeIn 1.25s linear;
     animation-fill-mode: forwards;
+
+    margin: 1em;
 }
 
 .title {
