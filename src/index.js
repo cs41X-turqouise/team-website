@@ -4,7 +4,6 @@ import styles from "./root.module.css";
 import NavBar from "./nav/NavBar";
 import Home from "./home/Home";
 import Team from "./team/Team";
-import Glossary from "./glossary/Glossary";
 import References from "./references/References";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
@@ -26,10 +25,6 @@ const router = createHashRouter([
 			{
 				path: 'deliverables',
 				element: null // tempoary
-			},
-			{
-				path: 'glossary',
-				element: <Glossary />
 			},
 			{
 				path: 'references',
