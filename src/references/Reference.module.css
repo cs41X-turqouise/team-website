@@ -1,8 +1,8 @@
-p {
+.p {
     display: inline;
 }
 
-a {
+.a {
     display: inline;
     text-decoration: underline;
 }

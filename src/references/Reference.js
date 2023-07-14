@@ -4,10 +4,11 @@ import styles from "./Reference.module.css";
 const Reference = (props) => {
     return (
         <div className={styles.reference}>
-            <p>
+            <p className={styles.p}>
                 {props.citation + ' '}
             </p>
             <a
+                className={styles.a}
                 href={props.link}
                 target="_blank"
                 rel="external"
@@ -15,7 +16,7 @@ const Reference = (props) => {
             >
                 {props.citationLink}
             </a>
-            <p>
+            <p className={styles.p}>
                 {props.citationLink ? '.' : ''}
             </p>
         </div>

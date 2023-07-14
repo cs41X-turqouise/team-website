@@ -1,5 +1,5 @@
 import React from "react";
-import headerStyle from "../misc/header.module.css";
+import Header from "../misc/Header";
 import styles from "./References.module.css";
 import Reference from "./Reference";
 
@@ -124,7 +124,7 @@ const references = [
 const References = () => {
     return (
         <>
-            <h1 className={headerStyle.header}>References</h1>
+            <Header header="References" />
             <ol className={styles.references}>
                 {references.map((reference, key) => 
                     <Reference

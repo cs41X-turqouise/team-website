@@ -9,6 +9,7 @@ const NavBar = () => {
 			<nav className={styles.navBar}>
 				<NavItem path="/" pageTitle="Home" />
 				<NavItem path="team" pageTitle="Team" />
+				<NavItem path="project-description" pageTitle="Project Description" />
 				<NavItem path="deliverables" pageTitle="Deliverables" />
 				<NavItem path="references" pageTitle="References" />
 			</nav>

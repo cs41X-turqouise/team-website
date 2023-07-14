@@ -1,0 +1,11 @@
+.body {
+    text-align: center;
+}
+
+.characteristic {
+    margin: 0.1em;
+}
+
+.characteristic::before {
+    content: "• ";
+}

@@ -4,6 +4,7 @@ import styles from "./root.module.css";
 import NavBar from "./nav/NavBar";
 import Home from "./home/Home";
 import Team from "./team/Team";
+import ProjectDescription from './project_description/ProjectDescription';
 import References from "./references/References";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
@@ -21,6 +22,10 @@ const router = createHashRouter([
 			{
 				path: 'team',
 				element: <Team />
+			},
+			{
+				path: 'project-description',
+				element: <ProjectDescription />
 			},
 			{
 				path: 'deliverables',
