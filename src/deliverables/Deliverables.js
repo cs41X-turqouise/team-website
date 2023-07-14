@@ -10,6 +10,8 @@ import mfcd from "./resources/mfcd.png";
 import securityRiskMatrix from "./resources/security_risk_matrix.png";
 import competitionMatrix from "./resources/competition_matrix.png";
 
+import { ReactComponent as Svg } from "./resources/sfp.svg";
+
 const options = [
     "Current Process Flow",
     "Solution Process Flow",
@@ -35,7 +37,7 @@ const Deliverables = () => {
                     securityRiskMatrix={securityRiskMatrix}
                     competitionMatrix={competitionMatrix}
                 />
-                <img src={image} />
+                <img src={image} width={1000} height={360} />
             </div>
         </>
     );

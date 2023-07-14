@@ -1,18 +1,26 @@
 .main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
 
     opacity: 0;
     animation: fadeIn 1.25s linear;
     animation-fill-mode: forwards;
 
-    margin: 1em;
+	background-image: url("./resources/background.png");
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	
+	height: 90vh;
 }
 
 .title {
-    margin: 0.25em 0;
+    color: white;
+    text-shadow: 0.1em 0.1em black;
+    margin-left: 1em;
+    margin-top: 1em;
 }
 
 @keyframes fadeIn {
