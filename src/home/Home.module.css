@@ -9,18 +9,32 @@
     animation-fill-mode: forwards;
 
 	background-image: url("./resources/background.png");
-	background-size: cover;
+	background-size: contain;
+    background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
-	
+
 	height: 90vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    
 }
+h1 {
+    font-size: 50px;
+    align-items: flex-start;
+    
+
+}
+h3 {font-size: 17px;}
+h4 {font-size: 17px;}
 
 .title {
-    color: white;
+    color: white; 
     text-shadow: 0.1em 0.1em black;
     margin-left: 1em;
     margin-top: 1em;
+
 }
 
 @keyframes fadeIn {
