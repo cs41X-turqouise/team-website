@@ -5,6 +5,7 @@ import NavBar from "./nav/NavBar";
 import Home from "./home/Home";
 import Team from "./team/Team";
 import Deliverables from './deliverables/Deliverables';
+import Presentations from "./presentations/Presentations";
 import ProjectDescription from './project_description/ProjectDescription';
 import References from "./references/References";
 import { createHashRouter, RouterProvider } from "react-router-dom";
@@ -27,6 +28,10 @@ const router = createHashRouter([
 			{
 				path: 'project-description',
 				element: <ProjectDescription />
+			},
+			{
+				path: 'presentations',
+				element: <Presentations />
 			},
 			{
 				path: 'deliverables',
