@@ -6,7 +6,7 @@ const Presentation = props => {
         <div className={styles.presentation}>
             {props.embed}
             <h1 className={styles.title}>{props.title}</h1>
-            <a className={styles.download} href={props.file} target="_blank" download>Download PDF</a>
+            <a className={styles.download} href={props.file} rel="noreferrer" target="_blank" download>Download PDF</a>
         </div>
     );
 };

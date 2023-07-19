@@ -36,8 +36,8 @@ const Deliverables = () => {
                     competitionMatrix={competitionMatrix}
                 />
                 {image === mfcd ?
-                    <img src={image} className={styles.deliverable} width={1024} height={586} /> :
-                    <img src={image} className={styles.deliverable} width={1000} height={360} />
+                    <img src={image} className={styles.deliverable} alt="Deliverable" width={1024} height={586} /> :
+                    <img src={image} className={styles.deliverable} alt="Deliverable" width={1000} height={360} />
                 }
             </div>
         </>

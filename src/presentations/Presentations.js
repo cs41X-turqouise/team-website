@@ -3,8 +3,8 @@ import Header from "../misc/Header";
 import Presentation from "./Presentation";
 import styles from "./Presentations.module.css";
 
-const embedFeasibility = <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQHBOAg_irXs-apvJjKvWUBUbuKQQ-dyRxRfuV_dkLXmBaMfhXWrN6BULJBpxldi9U_aPkyGuITQXLt/embed?start=false&loop=false&delayms=3000" frameBorder="0" width="960" height="569" allowFullScreen={true} mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>;
-const embedFeasibilityRevised = <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTGdRE2uwrS1wcjcmYkI-aPDukqRsnOzyADRLHIGUkxtYiA-PnpWRD2yE3v9z7rWHsPmMYqHgw6B5Jz/embed?start=false&loop=false&delayms=3000" frameBorder="0" width="960" height="569" allowFullScreen={true} mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>;
+const embedFeasibility = <iframe title="feasibility" src="https://docs.google.com/presentation/d/e/2PACX-1vQHBOAg_irXs-apvJjKvWUBUbuKQQ-dyRxRfuV_dkLXmBaMfhXWrN6BULJBpxldi9U_aPkyGuITQXLt/embed?start=false&loop=false&delayms=3000" frameBorder="0" width="960" height="569" allowFullScreen={true} mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>;
+const embedFeasibilityRevised = <iframe title="revised feasibility" src="https://docs.google.com/presentation/d/e/2PACX-1vTGdRE2uwrS1wcjcmYkI-aPDukqRsnOzyADRLHIGUkxtYiA-PnpWRD2yE3v9z7rWHsPmMYqHgw6B5Jz/embed?start=false&loop=false&delayms=3000" frameBorder="0" width="960" height="569" allowFullScreen={true} mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>;
 
 const Presentations = () => {
     return (
