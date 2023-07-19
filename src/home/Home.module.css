@@ -20,15 +20,29 @@
     align-items: center; 
     
 }
-header_1 {font-size: 2.5em;}
-header_2 {font-size: 12em;}
-header_3 {font-size: em;}
+header_1 {
+    font:  bold 24px/1 sans-serif;
+    font-size: 2em;
+    position: absolute; 
+    top: 2.2em;
+}
+header_2 {
+    font-size: 1em;
+    font-style: italic;
+    position: absolute; 
+    bottom: 5em
+}
+header_3 {
+    font-size: 1em;
+    position: absolute; 
+    bottom: 1em
+}
 
 .title {
     color: white; 
-    text-shadow: 0.1em 0.1em black;
-    margin-left: .2em;
-    margin-top: 1em;
+    text-shadow: -0.01em 0.1em black;
+    margin-left: -0.1em;
+    margin-top: 0.9em;
 
 }
 
