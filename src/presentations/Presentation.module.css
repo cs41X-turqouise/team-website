@@ -4,9 +4,11 @@
     justify-content: center;
     align-items: center;
 
-    margin-bottom: 1em;
-    padding: 1em;
+    margin: 1em;
     background-color: var(--color-secondary);
+    border: 0.1em solid black;
+    padding: 1em;
+    box-shadow: var(--shadow);
 }
 
 .title {

@@ -1,14 +1,20 @@
 import React from "react";
-import { useState } from "react";
 import styles from "./Deliverables.module.css";
 import Header from "../misc/Header";
-import Select from "./Select";
 
 import currentProcessFlow from "./resources/current_process_flow.png";
 import solutionProcessFlow from "./resources/solution_process_flow.png";
 import mfcd from "./resources/mfcd.png";
 import securityRiskMatrix from "./resources/security_risk_matrix.png";
 import competitionMatrix from "./resources/competition_matrix.png";
+
+const images = [
+    currentProcessFlow,
+    solutionProcessFlow,
+    mfcd,
+    securityRiskMatrix,
+    competitionMatrix
+];
 
 const options = [
     "Current Process Flow",
@@ -18,27 +24,37 @@ const options = [
     "Security Risk Matrix"
 ];
 
-const Deliverables = () => {
-    const [image, setImage] = useState(currentProcessFlow);
+const goToDeliverable = id => {
+    const element = document.getElementById(id);
+    element.scrollIntoView();
+}
 
+const Deliverables = () => {
     return (
         <>
             <Header header="Deliverables" />
-            <div className={styles.deliverables}>
-                <Select
-                    id="deliverables"
-                    options={options}
-                    changeImage={newImage => { setImage(newImage); }}
-                    currentProcessFlow={currentProcessFlow}
-                    solutionProcessFlow={solutionProcessFlow}
-                    mfcd={mfcd}
-                    securityRiskMatrix={securityRiskMatrix}
-                    competitionMatrix={competitionMatrix}
-                />
-                {image === mfcd ?
-                    <img src={image} className={styles.deliverable} alt="Deliverable" width={1024} height={586} /> :
-                    <img src={image} className={styles.deliverable} alt="Deliverable" width={1000} height={360} />
-                }
+            <div className={styles.main}>
+                <div className={styles.deliverables}>
+                    {images.map((image, key) => {
+                        return (
+                            <div className={styles.deliverable} id={options[key].replaceAll(' ', '').toLowerCase()}>
+                                <img className={styles.image} src={image} />
+                                <h1 className={styles.title}>{options[key]}</h1>
+                            </div>
+                        );
+                    })}
+                </div>
+                <div className={styles.navigation}>
+                    {options.map((option, key) =>
+                        <a
+                            key={key}
+                            onClick={() => { goToDeliverable(options[key].replaceAll(' ', '').toLowerCase()); }}
+                            className={styles.navigational}
+                        >
+                            {option}
+                        </a>
+                    )}
+                </div>
             </div>
         </>
     );
