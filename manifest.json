@@ -1,0 +1,8 @@
+{
+  "short_name": "CS410 Turquoise Website",
+  "name": "CS410 Team Turquoise Website",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
