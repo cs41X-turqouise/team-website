@@ -41,11 +41,18 @@ const Risks = props => {
     }, [])
 
     return (
-        <div className={deliverableStyles.deliverable} id={props.id}>
-            <div className={riskStyles.main}>
-                <div className={riskStyles.arrow} onClick={() => { changeMatrix(-1); }} style={leftArrowColor}>{"<"}</div>
+        <div className="border-4 border-black justify-self-center w-9/12 max-w-2xl" id={props.id}>
+            <div className="">
                 <Risk image={props.images[matrixIndex]} descriptions={props.risks[matrixIndex]} />
-                <div className={riskStyles.arrow} onClick={() => { changeMatrix(1); }} style={rightArrowColor}>{">"}</div>
+            </div>
+            
+            <div class="flex justify-center">
+                <div className="w-10 h-10 text-center" onClick={() => { changeMatrix(-1); }} style={leftArrowColor}>
+                    <span className="align-middle">{"<"}</span>
+                </div>
+                <div className="w-10 h-10 text-center" onClick={() => { changeMatrix(1); }} style={rightArrowColor}>
+                    <span className="align-middle">{">"}</span>
+                </div>
             </div>
             <h1 className={deliverableStyles.title}>{props.title}</h1>
         </div>

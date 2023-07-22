@@ -206,9 +206,9 @@ const Deliverables = () => {
     return (
         <>
             <Header header="Deliverables" />
-            <div className={styles.main}>
+            <div className="w-screen">
 
-                <div className={styles.deliverables}>
+                <div className="grid grid-cols-1 gap-4 ">
 
                     {images.map((image, key) =>
                         <Deliverable
@@ -231,7 +231,15 @@ const Deliverables = () => {
 
                 </div>
 
-                <div className={styles.navigation}>
+                <div className="fixed text-sm md:text-base
+                 left-1/2 translate-x-[-50%]
+                 w-[90vw]
+                 md:w-[768px]
+                 h-20
+                 bottom-0 flex justify-center 
+                 backdrop-blur-md border-t-black 
+                 border-t-2 border-solid rounded-t-3xl
+                 bg-opacity-25 bg-green-400">
 
                     {options.map((option, key) =>
                         <a
@@ -254,7 +262,8 @@ const Deliverables = () => {
                     )}
 
                 </div>
-
+                
+		        <div class="h-20"></div>            
             </div>
         </>
     );

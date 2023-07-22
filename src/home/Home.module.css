@@ -9,7 +9,7 @@
     animation-fill-mode: forwards;
 
 	background-image: url("./resources/background.png");
-	background-size: contain;
+	background-size: cover;
     background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
@@ -30,16 +30,16 @@ header_2 {
     font-size: 1em;
     font-style: italic;
     position: absolute; 
-    bottom: 5em
+    bottom: 10em
 }
 header_3 {
     font-size: 1em;
     position: absolute; 
-    bottom: 1em
+    bottom: 7em
 }
 
 .title {
-    color: white; 
+    color: beige; 
     text-shadow: -0.01em 0.1em black;
     margin-left: -0.1em;
     margin-top: 0.9em;

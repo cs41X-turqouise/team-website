@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import styles from "./root.module.css";
+import './index.css'
 import NavBar from "./nav/NavBar";
 import Home from "./home/Home";
 import Team from "./team/Team";
@@ -47,5 +47,5 @@ const router = createHashRouter([
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<RouterProvider router={router} />);
-
+document.body.className = "bg-gradient-to-r from-amber-100 to-cyan-200"
 reportWebVitals();

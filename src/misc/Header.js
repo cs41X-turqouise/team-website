@@ -1,9 +1,8 @@
 import React from "react";
-import styles from "./header.module.css";
 
 const Header = props => {
     return (
-        <h1 className={styles.header}>{props.header}</h1>
+        <h1 className="text-6xl w-screen text-center text-cyan-950">{props.header}</h1>
     );
 };
 

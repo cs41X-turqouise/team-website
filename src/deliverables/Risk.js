@@ -4,21 +4,19 @@ import riskStyles from "./Risk.module.css";
 
 const Risk = props => {
     return (
-        <div className={riskStyles.vertical}>
-            <div className={riskStyles.main}>
-                <div className={riskStyles.info}>
-                    {props.descriptions.risks.map((risk, key) =>
-                        <p className={riskStyles.desc} key={key} style={{ textAlign: "left" }}>{risk}</p>
-                    )}
-                </div>
-                <img className={deliverableStyles.image} src={props.image} />
-                <div className={riskStyles.info}>
-                    {props.descriptions.mitigations.map((mitigation, key) =>
-                        <p className={riskStyles.desc} key={key} style={{ textAlign: "right" }}>{mitigation}</p>
-                    )}
-                </div>
+        <div className="grid grid-cols-2 gap-1 border-solid ">
+            <img className="col-span-2 justify-self-center" src={props.image} />
+            <div className="h-[150px] overflow-y-scroll">
+                {props.descriptions.risks.map((risk, key) =>
+                    <p className={riskStyles.desc} key={key}>{risk}</p>
+                )}
             </div>
-            <h2 className={riskStyles.title}>{props.descriptions.title}</h2>
+            <div className="h-[150px] overflow-y-scroll">
+                {props.descriptions.mitigations.map((mitigation, key) =>
+                    <p className={riskStyles.desc} key={key}>{mitigation}</p>
+                )}
+            </div>
+            <h2 className="col-span-2 justify-self-center">{props.descriptions.title}</h2>
         </div>
     );
 };
