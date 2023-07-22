@@ -47,10 +47,10 @@ const Risks = props => {
             </div>
             
             <div class="flex justify-center">
-                <div className="w-10 h-10 text-center" onClick={() => { changeMatrix(-1); }} style={leftArrowColor}>
+                <div className="w-10 h-10 text-center select-none hover:cursor-pointer" onClick={() => { changeMatrix(-1); }} style={leftArrowColor}>
                     <span className="align-middle">{"<"}</span>
                 </div>
-                <div className="w-10 h-10 text-center" onClick={() => { changeMatrix(1); }} style={rightArrowColor}>
+                <div className="w-10 h-10 text-center select-none hover:cursor-pointer" onClick={() => { changeMatrix(1); }} style={rightArrowColor}>
                     <span className="align-middle">{">"}</span>
                 </div>
             </div>
