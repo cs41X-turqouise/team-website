@@ -1,12 +1,13 @@
 .main {
+    z-index: -10001;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-
+/* 
     opacity: 0;
     animation: fadeIn 1.25s linear;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
 
 	background-image: url("./resources/background.png");
 	background-size: cover;
