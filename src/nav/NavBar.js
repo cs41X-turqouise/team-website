@@ -40,7 +40,7 @@ const NavBar = () => {
 			border-solid rounded-b-xl
 			bg-opacity-25 bg-green-400">
 				<nav className="flex justify-between absolute top-1/2 translate-y-[-50%] w-screen p-2">
-					<h1 class="text-lg justify-self-start content-center">Changing Landscapes</h1>
+					<NavItem class="text-lg justify-self-start content-center" path="/" pageTitle="Changing Landscapes" />
 
 					<MediaQuery minWidth={mdWidth}>
 						<div class="grow flex justify-evenly  align-middle text-[0.6em] sm:text-sm">

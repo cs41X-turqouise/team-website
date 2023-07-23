@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const NavItem = (props) => {
 	return (
 		<div className="flex items-center">
-			<Link to={props.path} className="">{props.pageTitle}</Link>
+			<Link to={props.path} className={props.class ? props.class : ""}>{props.pageTitle}</Link>
 		</div>
 	);
 };
