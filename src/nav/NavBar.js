@@ -29,6 +29,7 @@ const NavBar = () => {
 			<DropdownItem path="presentations" pageTitle="Presentations" closeDropdown={closeDropdown} />
 			<DropdownItem path="deliverables" pageTitle="Deliverables" closeDropdown={closeDropdown} />
 			<DropdownItem path="references" pageTitle="References" closeDropdown={closeDropdown} />
+			<DropdownItem path='glossary' pageTitle="Glossary" closeDropdown={closeDropdown} />
 		</div>
 	return (
 		<>
