@@ -8,6 +8,7 @@ import Deliverables from './deliverables/Deliverables';
 import Presentations from "./presentations/Presentations";
 import ProjectDescription from './project_description/ProjectDescription';
 import References from "./references/References";
+import Glossary from "./glossary/Glossary";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 
@@ -40,6 +41,10 @@ const router = createHashRouter([
 			{
 				path: 'references',
 				element: <References />
+			},
+			{
+				path: 'glossary',
+				element: <Glossary />
 			}
 		]
 	}

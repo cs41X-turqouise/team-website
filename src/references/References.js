@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../misc/Header";
-import styles from "./References.module.css";
+import styles from "../misc/scope.module.css";
 import Reference from "./Reference";
 
 const references = [
@@ -125,7 +125,7 @@ const References = () => {
     return (
         <>
             <Header header="References" />
-            <ol className={styles.references}>
+            <ol className={styles.scope}>
                 {references.map((reference, key) => 
                     <Reference
                         link={reference.link}

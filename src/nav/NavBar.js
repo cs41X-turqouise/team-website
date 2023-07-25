@@ -6,8 +6,6 @@ import MediaQuery from 'react-responsive';
 import { CSSTransition, TransitionGroup }  from 'react-transition-group' 
 import './transitions.css'
 
-
-
 const NavBar = () => {
 	const nodeRef = useRef(null);
 	const [dropdownVisible, setDropdownVisible] = useState(false);
@@ -50,6 +48,7 @@ const NavBar = () => {
 							<NavItem path="presentations" pageTitle="Presentations" />
 							<NavItem path="deliverables" pageTitle="Deliverables" />
 							<NavItem path="references" pageTitle="References" />
+							<NavItem path="glossary" pageTitle="Glossary" />
 						</div>
 					</MediaQuery>
 

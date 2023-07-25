@@ -1,9 +1,10 @@
 import React from "react";
 import styles from "./Reference.module.css";
+import styles2 from "../misc/item.module.css";
 
 const Reference = (props) => {
     return (
-        <div className={styles.reference}>
+        <div className={styles2.item}>
             <p className={styles.p}>
                 {props.citation + ' '}
             </p>
