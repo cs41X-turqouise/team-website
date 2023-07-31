@@ -29,6 +29,7 @@ import algorithmFlow7 from "./resources/algorithm_flow_7.png";
 import guiMockup1 from "./resources/gui_mockup_1.png";
 import guiMockup2 from "./resources/gui_mockup_2.png";
 import guiMockup3 from "./resources/gui_mockup_3.png";
+import databaseSchema from "./resources/database_schema.png";
 
 const images = [
     [ currentProcessFlow ],
@@ -48,7 +49,8 @@ const images = [
         guiMockup1,
         guiMockup2,
         guiMockup3
-    ]
+    ],
+    [ databaseSchema ]
 ];
 
 const riskImages = [
@@ -213,7 +215,8 @@ const options = [
     "MFCD",
     "Competition Matrix",
     "Algorithm Flow",
-    "GUI Mockups"
+    "GUI Mockups",
+    "Database Schema"
 ];
 
 const risks = [
@@ -260,7 +263,7 @@ const Deliverables = () => {
                 <div className="fixed text-sm md:text-base
                  left-1/2 translate-x-[-50%]
                  w-[90vw]
-                 md:w-[768px]
+                 md:w-[868px]
                  h-20
                  bottom-0 flex justify-center 
                  backdrop-blur-md border-t-black 
