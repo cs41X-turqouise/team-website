@@ -19,12 +19,36 @@ import securityRiskMatrix from "./resources/security_risk_matrix.png";
 import customerMatrix from "./resources/customer_matrix.jpg";
 import legalMatrix1 from "./resources/legal_matrix_1.png";
 import legalMatrix2 from "./resources/legal_matrix_2.png";
+import algorithmFlow1 from "./resources/algorithm_flow_1.png";
+import algorithmFlow2 from "./resources/algorithm_flow_2.png";
+import algorithmFlow3 from "./resources/algorithm_flow_3.png";
+import algorithmFlow4 from "./resources/algorithm_flow_4.png";
+import algorithmFlow5 from "./resources/algorithm_flow_5.png";
+import algorithmFlow6 from "./resources/algorithm_flow_6.png";
+import algorithmFlow7 from "./resources/algorithm_flow_7.png";
+import guiMockup1 from "./resources/gui_mockup_1.png";
+import guiMockup2 from "./resources/gui_mockup_2.png";
+import guiMockup3 from "./resources/gui_mockup_3.png";
 
 const images = [
-    currentProcessFlow,
-    solutionProcessFlow,
-    mfcd,
-    competitionMatrix
+    [ currentProcessFlow ],
+    [ solutionProcessFlow ],
+    [ mfcd ],
+    [ competitionMatrix ],
+    [
+        algorithmFlow1,
+        algorithmFlow2,
+        algorithmFlow3,
+        algorithmFlow4,
+        algorithmFlow5,
+        algorithmFlow6,
+        algorithmFlow7,
+    ],
+    [
+        guiMockup1,
+        guiMockup2,
+        guiMockup3
+    ]
 ];
 
 const riskImages = [
@@ -187,7 +211,9 @@ const options = [
     "Current Process Flow",
     "Solution Process Flow",
     "MFCD",
-    "Competition Matrix"
+    "Competition Matrix",
+    "Algorithm Flow",
+    "GUI Mockups"
 ];
 
 const risks = [
@@ -210,12 +236,12 @@ const Deliverables = () => {
 
                 <div className="grid grid-cols-1 gap-4 ">
 
-                    {images.map((image, key) =>
+                    {images.map((images, key) =>
                         <Deliverable
                             key={key}
                             title={options[key]}
                             id={options[key].replaceAll(' ', '').toLowerCase()}
-                            image={image}
+                            images={images}
                         />
                     )}
 
