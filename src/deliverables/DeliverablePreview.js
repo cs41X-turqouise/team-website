@@ -28,9 +28,9 @@ const DeliverablePreview = ({children, data, Deliverable:Deliverable}) => {
             </div>
 
             <dialog ref={dialogRef} onClick={checkDialogClick}
-             className="backdrop:bg-gray-900 backdrop:opacity-75">
-                <div name="edge" className="p-0">
-                    <div className="x"></div>
+             className="w-fit backdrop:bg-gray-900 backdrop:opacity-75
+                        border-none">
+                <div name="edge" className="p-0 grid justify-center">
                     <Deliverable/>
                 </div>
             </dialog>

@@ -43,7 +43,7 @@ const Deliverable = props => {
     }, []);
 
     return (
-        <div className="grid grid-cols-1 border-4 border-black justify-self-center w-9/12 max-w-2xl" id={props.data.id}>
+        <div className="grid" id={props.data.id}>
 
             {props.data.specifications.isRisks
                 ?
