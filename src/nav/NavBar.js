@@ -28,6 +28,7 @@ const NavBar = () => {
 			<DropdownItem path="project-description" pageTitle="Project Description" closeDropdown={closeDropdown} />
 			<DropdownItem path="presentations" pageTitle="Presentations" closeDropdown={closeDropdown} />
 			<DropdownItem path="deliverables" pageTitle="Deliverables" closeDropdown={closeDropdown} />
+			<DropdownItem path="user-stories" pageTitle="User Stories" closeDropdown={closeDropdown} />
 			<DropdownItem path="labs" pageTitle="Labs" closeDropdown={closeDropdown} />
 			<DropdownItem path="references" pageTitle="References" closeDropdown={closeDropdown} />
 			<DropdownItem path='glossary' pageTitle="Glossary" closeDropdown={closeDropdown} />
@@ -49,6 +50,7 @@ const NavBar = () => {
 							<NavItem path="project-description" pageTitle="Project Description" />
 							<NavItem path="presentations" pageTitle="Presentations" />
 							<NavItem path="deliverables" pageTitle="Deliverables" />
+							<NavItem path="user-stories" pageTitle="User Stories" />
 							<NavItem path="labs" pageTitle="Labs" />
 							<NavItem path="references" pageTitle="References" />
 							<NavItem path="glossary" pageTitle="Glossary" />
