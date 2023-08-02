@@ -5,6 +5,7 @@ import NavBar from "./nav/NavBar";
 import Home from "./home/Home";
 import Team from "./team/Team";
 import Deliverables from './deliverables/Deliverables';
+import Labs from "./labs/Labs";
 import Presentations from "./presentations/Presentations";
 import ProjectDescription from './project_description/ProjectDescription';
 import References from "./references/References";
@@ -37,6 +38,10 @@ const router = createHashRouter([
 			{
 				path: 'deliverables',
 				element: <Deliverables />
+			},
+			{
+				path: 'labs',
+				element: <Labs />
 			},
 			{
 				path: 'references',
