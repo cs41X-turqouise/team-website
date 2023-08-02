@@ -1,10 +1,7 @@
 import React, { useRef, useState } from "react"; 
 import Deliverable from "./Deliverable";
 const DeliverablePreview = ({children, data, Deliverable:Deliverable}) => {
-
-    const nodeRef = useRef(null);
     const dialogRef = useRef(null)
-    const [deliverableVisible, setDeliverableVisible] = useState(false);
     function openImg(){dialogRef.current.showModal()}
     function closeImg(){
         dialogRef.current.close()
@@ -16,15 +13,18 @@ const DeliverablePreview = ({children, data, Deliverable:Deliverable}) => {
     }
     
     const imgPreviewSrc = data.images[0]
+    const title = data.title;
     // const previewImageSrc = data.images[0]
     return (
         <>
             <div onClick={openImg}
-            className="aspect-square grid place-content-center bg-gray-600">
-                <div>
-                <img src={imgPreviewSrc}
-                    className="aspect-square object-cover"></img>
-                    </div>
+             className="relative -z-50 aspect-square grid place-content-center bg-gray-600">
+                <div className="relative">
+                    <img src={imgPreviewSrc}
+                        className="aspect-square object-cover "></img>
+
+                    <div className="absolute bottom-0 bg-green-200 w-full p-1">{title}</div>
+                </div>
             </div>
 
             <dialog ref={dialogRef} onClick={checkDialogClick}
