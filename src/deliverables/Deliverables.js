@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Deliverables.module.css";
 import Header from "../misc/Header";
 import Deliverable from "./Deliverable";
+import DeliverablePreview from "./DeliverablePreview";
 import { deliverablesData } from "./deliverablesData";
 
 const options = [
@@ -28,18 +29,18 @@ const Deliverables = () => {
         <>
             <Header header="Deliverables" />
 
-            <div className="w-screen">
+            <div className="w-screen grid">
 
-                <div className="grid grid-cols-1 gap-4 ">
+                <div className="w-3/4 justify-self-center grid grid-cols-3 gap-1">
 
-                    {deliverablesData.map((deliverable, key) =>
-                        <Deliverable
-                            key={key}
-                            data={deliverable}
-                        />
-                    )}
+                    {deliverablesData.map((deliverable, key) => (
+                            <DeliverablePreview key={key} data={deliverable}> 
+                                <Deliverable data={deliverable}/>
+                            </DeliverablePreview>
+                        ))}
 
                 </div>
+                <div className="h-20"></div>
 
                 <div className="fixed text-sm md:text-base
                  left-1/2 translate-x-[-50%]

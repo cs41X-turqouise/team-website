@@ -18,7 +18,7 @@ const NavBar = () => {
 	const mdWidth = 768
 	const dropdown = 
 		<div ref={nodeRef} 
-		class="grow grid grid-cols-1 
+		className="grow grid grid-cols-1 
 		justify-items-stretch align-middle
 		gap-1
 		backdrop-blur-2xl
@@ -33,16 +33,16 @@ const NavBar = () => {
 		</div>
 	return (
 		<>
-			<div class="fixed w-screen h-14 
+			<div className="fixed w-screen h-14 
 			 backdrop-blur-xl 
 			border-b-black border-b-2 
 			border-solid rounded-b-xl
 			bg-opacity-25 bg-green-400">
 				<nav className="flex justify-between absolute top-1/2 translate-y-[-50%] w-screen p-2">
-					<NavItem class="text-lg justify-self-start content-center" path="/" pageTitle="Changing Landscapes" />
+					<NavItem classN="text-lg justify-self-start content-center" path="/" pageTitle="Changing Landscapes" />
 
 					<MediaQuery minWidth={mdWidth}>
-						<div class="grow flex justify-evenly  align-middle text-[0.6em] sm:text-sm">
+						<div className="grow flex justify-evenly  align-middle text-[0.6em] sm:text-sm">
 							<NavItem path="/" pageTitle="Home" />
 							<NavItem path="team" pageTitle="Team" />
 							<NavItem path="project-description" pageTitle="Project Description" />
@@ -77,7 +77,7 @@ const NavBar = () => {
 				{dropdownVisible && dropdown}
 				</>
 			</CSSTransition>
-			<div class="h-14"></div>
+			<div className="h-14"></div>
 			<Outlet />
 		</>
 	);
