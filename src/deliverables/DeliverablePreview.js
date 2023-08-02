@@ -11,7 +11,7 @@ const DeliverablePreview = ({children, data, Deliverable:Deliverable}) => {
     }
     function checkDialogClick(event){
         console.log(event.target)
-        if(!event.target.closest('#edge'))
+        if(!event.target.closest('div[name="edge"]'))
             closeImg();
     }
     
@@ -29,7 +29,7 @@ const DeliverablePreview = ({children, data, Deliverable:Deliverable}) => {
 
             <dialog ref={dialogRef} onClick={checkDialogClick}
              className="backdrop:bg-gray-900 backdrop:opacity-75">
-                <div id="edge" className="p-0">
+                <div name="edge" className="p-0">
                     <div className="x"></div>
                     <Deliverable/>
                 </div>
