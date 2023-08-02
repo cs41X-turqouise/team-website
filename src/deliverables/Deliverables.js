@@ -33,11 +33,14 @@ const Deliverables = () => {
 
                 <div className="w-3/4 justify-self-center grid grid-cols-3 gap-1">
 
-                    {deliverablesData.map((deliverable, key) => (
-                            <DeliverablePreview key={key} data={deliverable}> 
-                                <Deliverable data={deliverable}/>
-                            </DeliverablePreview>
-                        ))}
+                    {deliverablesData.map((deliverable, key) => {
+                            const D = (props) => (<Deliverable onBlur={props.onBlur} data={deliverable}/>)
+                            return (
+                                <DeliverablePreview key={key} data={deliverable} Deliverable={D}> 
+                                    
+                                </DeliverablePreview>
+                            )
+                    })}
 
                 </div>
                 <div className="h-20"></div>

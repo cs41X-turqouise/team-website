@@ -1,13 +1,20 @@
 import React, { useRef, useState } from "react"; 
-const DeliverablePreview = ({children, data, key}) => {
+import Deliverable from "./Deliverable";
+const DeliverablePreview = ({children, data, Deliverable:Deliverable}) => {
 
     const nodeRef = useRef(null);
     const dialogRef = useRef(null)
     const [deliverableVisible, setDeliverableVisible] = useState(false);
-    function openImg(){dialogRef.current.show()}
-    function closeImg(){dialogRef.current.close()}
+    function openImg(){dialogRef.current.showModal()}
+    function closeImg(){
+        dialogRef.current.close()
+    }
+    function checkDialogClick(event){
+        console.log(event.target)
+        if(!event.target.closest('#edge'))
+            closeImg();
+    }
     
-    const deliverableId = 'deliverable_' + key
     const imgPreviewSrc = data.images[0]
     // const previewImageSrc = data.images[0]
     return (
@@ -20,8 +27,12 @@ const DeliverablePreview = ({children, data, key}) => {
                     </div>
             </div>
 
-            <dialog ref={dialogRef} onBlur={closeImg}>
-                {children}
+            <dialog ref={dialogRef} onClick={checkDialogClick}
+             className="backdrop:bg-gray-900 backdrop:opacity-75">
+                <div id="edge" className="p-0">
+                    <div className="x"></div>
+                    <Deliverable/>
+                </div>
             </dialog>
         </>
     )
