@@ -13,7 +13,7 @@ const Labs = () => {
     return (
         <>
             <Header header="Labs" />
-            <div className="flex flex-col justify-start items-center w-screen h-screen">
+            <div className="flex flex-col justify-start items-center h-screen">
                 <LabOutline data={labOutline} />
             </div>
         </>

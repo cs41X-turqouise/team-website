@@ -29,7 +29,7 @@ const Deliverables = () => {
         <>
             <Header header="Deliverables" />
 
-            <div className="w-screen grid">
+            <div className="grid">
 
                 <div className="w-3/4 justify-self-center grid grid-cols-3 gap-1">
 
