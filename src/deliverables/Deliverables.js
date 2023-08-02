@@ -43,29 +43,6 @@ const Deliverables = () => {
                     })}
 
                 </div>
-                <div className="h-20"></div>
-
-                <div className="fixed text-sm md:text-base
-                 left-1/2 translate-x-[-50%]
-                 w-[90vw]
-                 md:w-[868px]
-                 h-20
-                 bottom-0 flex justify-center 
-                 backdrop-blur-md border-t-black 
-                 border-t-2 border-solid rounded-t-3xl
-                 bg-opacity-25 bg-green-400">
-
-                    {options.map((option, key) =>
-                        <a
-                            key={key}
-                            onClick={() => { goToDeliverable(option.replaceAll(' ', '-').toLowerCase()); }}
-                            className="navigational"
-                        >
-                            {option}
-                        </a>
-                    )}
-
-                </div>
                          
             </div>
         </>
