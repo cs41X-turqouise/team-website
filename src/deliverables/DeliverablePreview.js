@@ -22,7 +22,7 @@ const DeliverablePreview = ({children, data, Deliverable:Deliverable}) => {
              className="relative aspect-square grid place-content-center bg-gray-600">
                 <div className="relative">
                     <img src={imgPreviewSrc}
-                        className="aspect-square object-cover "></img>
+                        className="aspect-square object-cover w-full h-full"></img>
 
                     <div className="absolute bottom-0 bg-green-200 w-full p-1">{title}</div>
                 </div>
