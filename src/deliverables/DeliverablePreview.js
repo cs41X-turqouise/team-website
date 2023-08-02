@@ -5,7 +5,7 @@ const DeliverablePreview = ({children, data, key}) => {
     const dialogRef = useRef(null)
     const [deliverableVisible, setDeliverableVisible] = useState(false);
     function openImg(){dialogRef.current.show()}
-    function closeImg(){setDeliverableVisible(false)}
+    function closeImg(){dialogRef.current.close()}
     
     const deliverableId = 'deliverable_' + key
     const imgPreviewSrc = data.images[0]
@@ -20,7 +20,7 @@ const DeliverablePreview = ({children, data, key}) => {
                     </div>
             </div>
 
-            <dialog ref={dialogRef}>
+            <dialog ref={dialogRef} onBlur={closeImg}>
                 {children}
             </dialog>
         </>
