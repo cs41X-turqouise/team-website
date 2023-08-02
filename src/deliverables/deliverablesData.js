@@ -104,7 +104,7 @@ const deliverablesData = [
         specifications: {
             iterable: true,
             isRisks: false,
-            additionalStyles: ""
+            additionalStyles: "bg-black"
         }
     },
     {

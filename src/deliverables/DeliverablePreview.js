@@ -3,14 +3,12 @@ import Deliverable from "./Deliverable";
 const DeliverablePreview = ({children, data, Deliverable:Deliverable}) => {
     const dialogRef = useRef(null)
     function openImg(){
-        console.log("whoop")
         dialogRef.current.showModal()
     }
     function closeImg(){
         dialogRef.current.close()
     }
     function checkDialogClick(event){
-        console.log(event.target)
         if(!event.target.closest('div[name="edge"]'))
             closeImg();
     }

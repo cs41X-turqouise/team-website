@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Deliverables.module.css";
+import "./Deliverables.module.css";
 import Header from "../misc/Header";
 import Deliverable from "./Deliverable";
 import DeliverablePreview from "./DeliverablePreview";
@@ -59,7 +59,7 @@ const Deliverables = () => {
                         <a
                             key={key}
                             onClick={() => { goToDeliverable(option.replaceAll(' ', '-').toLowerCase()); }}
-                            className={styles.navigational}
+                            className="navigational"
                         >
                             {option}
                         </a>
