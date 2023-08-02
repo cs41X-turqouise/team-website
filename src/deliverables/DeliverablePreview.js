@@ -2,7 +2,10 @@ import React, { useRef, useState } from "react";
 import Deliverable from "./Deliverable";
 const DeliverablePreview = ({children, data, Deliverable:Deliverable}) => {
     const dialogRef = useRef(null)
-    function openImg(){dialogRef.current.showModal()}
+    function openImg(){
+        console.log("whoop")
+        dialogRef.current.showModal()
+    }
     function closeImg(){
         dialogRef.current.close()
     }
@@ -18,7 +21,7 @@ const DeliverablePreview = ({children, data, Deliverable:Deliverable}) => {
     return (
         <>
             <div onClick={openImg}
-             className="relative -z-50 aspect-square grid place-content-center bg-gray-600">
+             className="relative aspect-square grid place-content-center bg-gray-600">
                 <div className="relative">
                     <img src={imgPreviewSrc}
                         className="aspect-square object-cover "></img>

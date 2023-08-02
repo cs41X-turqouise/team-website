@@ -33,7 +33,7 @@ const NavBar = () => {
 		</div>
 	return (
 		<>
-			<div className="fixed w-screen h-14 
+			<div className="fixed z-50 w-screen h-14 
 			 backdrop-blur-xl 
 			border-b-black border-b-2 
 			border-solid rounded-b-xl
