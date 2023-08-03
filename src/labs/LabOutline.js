@@ -5,6 +5,7 @@ const LabOutline = props => {
         <>
             <h1 className="text-3xl my-5">{props.data.title}</h1>
             {props.data.embed}
+            <a className="underline" rel="noreferrer" href={props.data.download} target="_blank">Download PDF</a>
         </>
     );
 };
