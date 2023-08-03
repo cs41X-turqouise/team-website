@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/team-website/static/css/main.0b89b177.css",
-    "main.js": "/team-website/static/js/main.33310243.js",
+    "main.css": "/team-website/static/css/main.09a873f8.css",
+    "main.js": "/team-website/static/js/main.e05c02cf.js",
     "static/js/787.edc9f791.chunk.js": "/team-website/static/js/787.edc9f791.chunk.js",
     "static/media/solution_process_flow.png": "/team-website/static/media/solution_process_flow.329e38e54f5412d7a610.png",
     "static/media/kori.png": "/team-website/static/media/kori.0a046ea482493ec66858.png",
@@ -10,6 +10,7 @@
     "static/media/current_process_flow.png": "/team-website/static/media/current_process_flow.73767d63e301c97a38fd.png",
     "static/media/gui_mockup_1.png": "/team-website/static/media/gui_mockup_1.9d5e37615aadb7d3a79a.png",
     "static/media/gui_mockup_2.png": "/team-website/static/media/gui_mockup_2.d5a4bdb9bc970175fc42.png",
+    "static/media/odu_logo.png": "/team-website/static/media/odu_logo.ebcba2d4c26305c17818.png",
     "static/media/brandon.png": "/team-website/static/media/brandon.cdce554635907276afe6.png",
     "static/media/gui_mockup_3.png": "/team-website/static/media/gui_mockup_3.2978789305eac6a28f1a.png",
     "static/media/aamr.jpg": "/team-website/static/media/aamr.474fe7de8e3d3c1735a8.jpg",
@@ -29,6 +30,7 @@
     "static/media/algorithm_flow_7.png": "/team-website/static/media/algorithm_flow_7.d24105e3235beefcdeba.png",
     "static/media/verification_matrix.png": "/team-website/static/media/verification_matrix.12d7b84e5f163bf65c21.png",
     "static/media/customer_matrix.jpg": "/team-website/static/media/customer_matrix.c798aebc125edf8f4caf.jpg",
+    "static/media/odu_cs.jpg": "/team-website/static/media/odu_cs.a096c2f9b2adc2c8ea8b.jpg",
     "static/media/interface_matrix_2.png": "/team-website/static/media/interface_matrix_2.8f3991ded9ebc90e9b1c.png",
     "static/media/legal_matrix_2.png": "/team-website/static/media/legal_matrix_2.7afdb8d917011e3299c5.png",
     "static/media/benjamin.jpg": "/team-website/static/media/benjamin.6c9659675a0d97f4030f.jpg",
@@ -40,12 +42,12 @@
     "static/media/algorithm_flow_3.png": "/team-website/static/media/algorithm_flow_3.e48d450b9b4537940263.png",
     "static/media/maintenance_matrix.png": "/team-website/static/media/maintenance_matrix.cf3faa2f43c737a6d9a8.png",
     "index.html": "/team-website/index.html",
-    "main.0b89b177.css.map": "/team-website/static/css/main.0b89b177.css.map",
-    "main.33310243.js.map": "/team-website/static/js/main.33310243.js.map",
+    "main.09a873f8.css.map": "/team-website/static/css/main.09a873f8.css.map",
+    "main.e05c02cf.js.map": "/team-website/static/js/main.e05c02cf.js.map",
     "787.edc9f791.chunk.js.map": "/team-website/static/js/787.edc9f791.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b89b177.css",
-    "static/js/main.33310243.js"
+    "static/css/main.09a873f8.css",
+    "static/js/main.e05c02cf.js"
   ]
 }
