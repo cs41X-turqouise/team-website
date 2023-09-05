@@ -7,7 +7,7 @@ const labOutlineEmbed = <iframe className="h-3/4 w-2/5 bg-white" src="https://do
 const labOutline = {
     title: "Lab 1 - Group Outline",
     embed: labOutlineEmbed,
-    download: "https://drive.google.com/file/d/1CW-T7prtlzq4vFQTclTsAiJVPzpgtF_W/view?usp=sharing"
+    download: "https://drive.google.com/file/d/1umswBVYoy4J67qym-Uj9u3Mn3wNqFQnv/view?usp=sharing"
 };
 
 const Labs = () => {
