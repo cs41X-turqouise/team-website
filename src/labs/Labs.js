@@ -45,6 +45,11 @@ const labs1v1 = [
         title: "Prestin Bell",
         embed: <iframe src="https://docs.google.com/document/d/e/2PACX-1vQEl3_r9rOKoscooYldyNiWKaNtEV-SWArMrD6-Q5DXkN3R-UWmNcQq6VUcDK83Wcp8JbmC6st8FcJY/pub?embedded=true"></iframe>,
         download: "https://drive.google.com/file/d/1vK_LuALaWthphjh41lxuXbiqigBwPXHJ/view?usp=sharing"
+    },
+    {
+        title: "Kori Fogle",
+        embed: <iframe src="https://docs.google.com/document/d/e/2PACX-1vSbE_UAMa_1y2IjRth7IwXvV4qi0QWvIeVhosbXNrjUgp7qX-j1tPiyGqk2WaJIcheur25Ai3TFDJxX/pub?embedded=true"></iframe>,
+        download: "https://drive.google.com/file/d/1ibR5pvUAhos7FJdJn3wXgjWHXseg0qt4/view?usp=sharing"
     }
 ];
 
@@ -78,6 +83,11 @@ const labs1v2 = [
         title: "Prestin Bell",
         embed: <iframe src="https://docs.google.com/document/d/e/2PACX-1vSPu4qJNXaYdmSKGsBpwNQaFKjKnN68QfBVd-e_nDLETm0cfYojvILpOXHppTYlGcQ172mF1NGc4y5a/pub?embedded=true"></iframe>,
         download: "https://drive.google.com/file/d/1BJX4A580nZd_2onjQpB_Ra2_Y6WguguA/view?usp=sharing"
+    },
+    {
+        title: "Kori Fogle",
+        embed: <iframe src="https://docs.google.com/document/d/e/2PACX-1vSbE_UAMa_1y2IjRth7IwXvV4qi0QWvIeVhosbXNrjUgp7qX-j1tPiyGqk2WaJIcheur25Ai3TFDJxX/pub?embedded=true"></iframe>,
+        download: "https://drive.google.com/file/d/1ibR5pvUAhos7FJdJn3wXgjWHXseg0qt4/view?usp=sharing"
     }
 ];
 
