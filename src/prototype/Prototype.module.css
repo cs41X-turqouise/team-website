@@ -1,0 +1,21 @@
+.prototype {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1em;
+    background-color: var(--color-secondary);
+    border: 0.1em solid black;
+    padding: 1em;
+    box-shadow: var(--shadow);
+}
+
+.title {
+    font-size: 2em;
+    margin: 0.25em;
+}
+
+.download {
+    text-decoration: underline;
+}

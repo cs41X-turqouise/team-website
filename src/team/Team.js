@@ -28,57 +28,51 @@ import thomasBio from "./profile_bios/thomas";
 
 const profiles = [
     {
-        picture: aamrPicture,
-        fullName: "Aamr Ibrahim",
-        role: "Placeholder",
-        bio: aamrBio
-    },
-    {
         picture: benjaminPicture,
         fullName: "Benjamin Johnson",
-        role: "Placeholder",
+        role: "Developer",
         bio: benjaminBio
     },
     {
         picture: brandonPicture,
         fullName: "Brandon Bedner",
-        role: "Placeholder",
+        role: "Developer",
         bio: brandonBio
     },
     {
         picture: christianPicture,
         fullName: "Christian Woodington",
-        role: "Placeholder",
+        role: "Developer",
         bio: christianBio
     },
     {
         picture: evanPicture,
         fullName: "Evan Goldberg",
-        role: "Placeholder",
+        role: "Lead Developer",
         bio: evanBio
     },
     {
         picture: koriPicture,
         fullName: "Kori Fogle",
-        role: "Placeholder",
+        role: "Developer",
         bio: koriBio
     },
     {
         picture: patrickPicture,
         fullName: "Patrick Meagher",
-        role: "Placeholder",
+        role: "Developer",
         bio: patrickBio
     },
     {
         picture: prestinPicture,
         fullName: "Prestin Bell",
-        role: "Placeholder",
+        role: "Developer",
         bio: prestinBio
     },
     {
         picture: thomasPicture,
         fullName: "Thomas Reynolds",
-        role: "Placeholder",
+        role: "Developer",
         bio: thomasBio
     },
     {

@@ -8,6 +8,7 @@ import Deliverables from './deliverables/Deliverables';
 import UserStories from './user_stories/UserStories';
 import Labs from "./labs/Labs";
 import Presentations from "./presentations/Presentations";
+import Prototypes from "./prototype/Prototypes";
 import ProjectDescription from './project_description/ProjectDescription';
 import References from "./references/References";
 import Glossary from "./glossary/Glossary";
@@ -35,6 +36,10 @@ const router = createHashRouter([
 			{
 				path: 'presentations',
 				element: <Presentations />
+			},
+			{
+				path: 'prototype',
+				element: <Prototypes />
 			},
 			{
 				path: 'deliverables',

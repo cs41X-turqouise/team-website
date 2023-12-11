@@ -35,6 +35,16 @@ const labs1v1 = [
         title: "Thomas Reynolds",
         embed: <iframe src="https://docs.google.com/document/d/e/2PACX-1vTKfxykSibzl8kv6qsP8PQsv1_Wmbub8GT3Apsx8eg9vi9sXDFK_RWxkTsv9K-0CD7Zpwi9y83XbxLy/pub?embedded=true"></iframe>,
         download: "https://drive.google.com/file/d/1oIpDMad7hvglmm3s45GnjttOYiJchumE/view?usp=sharing"
+    },
+    {
+        title: "Evan Goldberg",
+        embed: <iframe src="https://docs.google.com/document/d/e/2PACX-1vQCQpujKOPfC4gPcvW8RuGzjSHdoiWYIj74GSckh-iqggTfCewvSUvFMsiorgy8cqOtYH8w6MvegmSm/pub?embedded=true"></iframe>,
+        download: "https://drive.google.com/file/d/1zfJYy_95SVX3t8pWlTlelrqLHLZxjzs5/view?usp=sharing"
+    },
+    {
+        title: "Prestin Bell",
+        embed: <iframe src="https://docs.google.com/document/d/e/2PACX-1vQEl3_r9rOKoscooYldyNiWKaNtEV-SWArMrD6-Q5DXkN3R-UWmNcQq6VUcDK83Wcp8JbmC6st8FcJY/pub?embedded=true"></iframe>,
+        download: "https://drive.google.com/file/d/1vK_LuALaWthphjh41lxuXbiqigBwPXHJ/view?usp=sharing"
     }
 ];
 
@@ -58,6 +68,16 @@ const labs1v2 = [
         title: "Thomas Reynolds",
         embed: <iframe src="https://docs.google.com/document/d/e/2PACX-1vScn5vjjrLUa5-2K4pAFXPScS2bNQzGdnVPY74_8qrNyQsd51HTeWHRJQ9dWY2UbeUNQlXDRdt3fNDl/pub?embedded=true"></iframe>,
         download: "https://drive.google.com/file/d/1XVikG1qybfkgOJLmPa7o7w3gcfaN-gxP/view?usp=sharing"
+    },
+    {
+        title: "Evan Goldberg",
+        embed: <iframe src="https://docs.google.com/document/d/e/2PACX-1vQCQpujKOPfC4gPcvW8RuGzjSHdoiWYIj74GSckh-iqggTfCewvSUvFMsiorgy8cqOtYH8w6MvegmSm/pub?embedded=true"></iframe>,
+        download: "https://drive.google.com/file/d/1zfJYy_95SVX3t8pWlTlelrqLHLZxjzs5/view?usp=sharing"
+    },
+    {
+        title: "Prestin Bell",
+        embed: <iframe src="https://docs.google.com/document/d/e/2PACX-1vSPu4qJNXaYdmSKGsBpwNQaFKjKnN68QfBVd-e_nDLETm0cfYojvILpOXHppTYlGcQ172mF1NGc4y5a/pub?embedded=true"></iframe>,
+        download: "https://drive.google.com/file/d/1BJX4A580nZd_2onjQpB_Ra2_Y6WguguA/view?usp=sharing"
     }
 ];
 
@@ -81,6 +101,16 @@ const labs2v1 = [
         title: "Thomas Reynolds",
         embed: <iframe src="https://docs.google.com/document/d/e/2PACX-1vTd6GzSJaUrygtUDckZfygHCOTGmRPlBBXumX8LYd0qHaPyUdQNgM-1RFXWa5QJPK7JVozYvzG0nWnG/pub?embedded=true"></iframe>,
         download: "https://drive.google.com/file/d/1XVikG1qybfkgOJLmPa7o7w3gcfaN-gxP/view?usp=sharing"
+    },
+    {
+        title: "Evan Goldberg",
+        embed: <iframe src="https://docs.google.com/document/d/e/2PACX-1vQn4ZFPeum4IrQUMXI5DsOIgaNzr_QosCzzeIJzJjoWs2nMdUjoiKRmakxoZdB0qXTwgbcESrPSD_i6/pub?embedded=true"></iframe>,
+        download: "https://drive.google.com/file/d/1k1CkIX_kJL6V63GIJMH5gIaKb1pO8gpM/view?usp=sharing"
+    },
+    {
+        title: "Prestin Bell",
+        embed: <iframe src="https://docs.google.com/document/d/e/2PACX-1vS2dPp-_dVL580kkMrScK6rDmc_zND6uzchO0f5WI-qGLUaVu4o8GAQ9PyYDgoqcUj_d7LdgJQcBAI3/pub?embedded=true"></iframe>,
+        download: "https://drive.google.com/file/d/1ALCpFjrpK1RRpl5KZFiokriV4ANvTc4B/view?usp=sharing"
     }
 ];
 
@@ -104,6 +134,16 @@ const labs2v2 = [
         title: "Thomas Reynolds",
         embed: <iframe src="https://docs.google.com/document/d/e/2PACX-1vQ-MvY7q8q6_YhEadI6Eu5heGdiXwxTRRYP8pyigQ2ecx0YVWZIhLFueARQHA9BlNsIvopCnso-0Z-w/pub?embedded=true"></iframe>,
         download: "https://drive.google.com/file/d/1kc9M0hEav9G0YcFoVJ8RV4LSUz3zQT_Z/view?usp=sharing"
+    },
+    {
+        title: "Evan Goldberg",
+        embed: <iframe src="https://docs.google.com/document/d/e/2PACX-1vQn4ZFPeum4IrQUMXI5DsOIgaNzr_QosCzzeIJzJjoWs2nMdUjoiKRmakxoZdB0qXTwgbcESrPSD_i6/pub?embedded=true"></iframe>,
+        download: "https://drive.google.com/file/d/1k1CkIX_kJL6V63GIJMH5gIaKb1pO8gpM/view?usp=sharing"
+    },
+    {
+        title: "Prestin Bell",
+        embed: <iframe src="https://docs.google.com/document/d/e/2PACX-1vS2dPp-_dVL580kkMrScK6rDmc_zND6uzchO0f5WI-qGLUaVu4o8GAQ9PyYDgoqcUj_d7LdgJQcBAI3/pub?embedded=true"></iframe>,
+        download: "https://drive.google.com/file/d/1ALCpFjrpK1RRpl5KZFiokriV4ANvTc4B/view?usp=sharing"
     }
 ];
 
