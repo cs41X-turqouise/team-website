@@ -190,6 +190,9 @@ const Labs = () => {
 
             <h1 className="text-3xl text-center">Lab 3</h1>
             <a className="underline text-center text-lg justify-center flex flex-row mb-20" rel="noreferrer" href="https://github.com/cs41X-turqouise/sound-map-mfvn/wiki" target="_blank">Visit Wiki Page</a>
+
+            <h1 className="text-3xl text-center">Lab 4</h1>
+            <a className="underline text-center text-lg justify-center flex flex-row mb-20" rel="noreferrer" href="https://github.com/cs41X-turqouise/sound-map-mfvn/wiki/Guide" target="_blank">Visit Wiki Page</a>
         </>
     );
 };
